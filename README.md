@@ -1,4 +1,4 @@
-=======
+
 Welcome to my coding haven! 👋 I'm Subazz, a passionate software developer with an insatiable curiosity for crafting elegant solutions to complex problems. My repositories reflect a journey of continuous learning, innovation, and a commitment to clean and efficient code.
 
 What to Expect:
@@ -17,5 +17,4 @@ Email: smsubash234@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/subash-sriniwas-110b4a26b/
 
->>>>>>> dabcd5e53d30e31d6784380bff879c4920fafbad
 GitHub: https://github.com/subashsriniwas
