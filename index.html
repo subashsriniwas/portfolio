@@ -572,12 +572,7 @@
                     <div class="contact-form text-center">
                         <div id="success"></div>
 
-                        <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
-                        <!-- <form name="sentMessage" id="contactForm" action="https://formspree.io/f/xbjndjge" method="POST" novalidate="novalidate"> -->
-
-                            <!-- 
-                                <form action="https://formspree.io/f/xbjndjge" method="POST" id="contactForm" novalidate="novalidate">
-
+                        <!--  
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
@@ -605,7 +600,7 @@
                                 <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
                                     Message</button> -->
 
-                                <form action="https://formspree.io/f/xbjndjge" method="POST" style="max-width: 400px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                                <!-- <form action="https://formspree.io/f/xbjndjge" method="POST" style="max-width: 400px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
                                     <label style="display: block; margin-bottom: 10px;">
                                         Your email:
                                         <input type="email" name="email" style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;" required>
@@ -614,8 +609,19 @@
                                         Your message:
                                         <textarea name="message" style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;" required></textarea>
                                     </label>
-                                    <!-- your other form fields go here -->
                                     <button type="submit" style="background-color: #0bceaf; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;" onmouseover="this.style.backgroundColor='#0bcea'" onmouseout="this.style.backgroundColor='#0bcea0'">Send</button>
+                                </form> -->
+
+                                <form class="su-form" action="https://formspree.io/f/xbjndjge" method="POST" style="max-width: auto; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                                    <label style="display: block; margin-bottom: 10px;">
+                                        Your Email:
+                                        <input type="email" name="email" placeholder="example@gmail.com" style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;" required>
+                                    </label>
+                                    <label style="display: block; margin-bottom: 10px;">
+                                        Your Message:
+                                        <textarea name="message" placeholder="Say Hi.." style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;" required></textarea>
+                                    </label>
+                                    <button class="btn btn-outline-primary d-block d-lg-block mx-auto" type="submit">Send</button>
                                 </form>
                                 
                             </div>
