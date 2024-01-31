@@ -9982,3 +9982,12 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.su-form label, text{
+  padding : 10px 10px;
+}
+
+.su-form textarea {
+  width:50%; 
+  min-height: 150px ;
+}
