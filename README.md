@@ -15,6 +15,6 @@ Feel free to reach out for collaboration opportunities, project partnerships, or
 
 Email: smsubash234@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/subash-sriniwas-110b4a26b/
+LinkedIn: https://www.linkedin.com/in/subash-sriniwas
 
 GitHub: https://github.com/subashsriniwas
